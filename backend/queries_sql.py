@@ -3,9 +3,9 @@ from flask import Flask, jsonify, request
 
 # Function to establish connection to MySQL Server
 def create_connection():
-    server = 'localhost'
+    server = '34.70.169.35'
     database = 'ASCII'
-    username = 'root'
+    username = 'tanish'
     password = 'Tanish1234'
     try:
         conn = mysql.connector.connect(host=server, database=database, user=username, password=password)
